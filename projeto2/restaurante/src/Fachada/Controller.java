@@ -1,7 +1,5 @@
 package Fachada;
 
-import java.util.ArrayList;
-
 import Repositorio.Conta;
 import Repositorio.Garcom;
 import Repositorio.Mesa;
@@ -76,6 +74,6 @@ public class Controller {
 		}
 		return null;
 	}
-	
-	//adiciona os metodos dele, construtor, to string, get, set...
+
+
 }
