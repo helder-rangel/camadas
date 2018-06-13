@@ -7,11 +7,7 @@ import Repositorio.Garcom;
 import Repositorio.Mesa;
 import Repositorio.Produto;
 
-public class Restaurante {
-	private ArrayList<Conta> contas;
-	private ArrayList<Mesa> mesas;
-	private ArrayList<Garcom> garcons;
-	private ArrayList<Produto> produtos;
+public class Controller {
 	
 	public void addGarcom(Garcom g) {
 		this.garcons.add(g);
