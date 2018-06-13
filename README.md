@@ -18,31 +18,22 @@ mesa tiver sido fechada. Uma conta só pode ser fechada se ela estiver aberta. Q
 recebe a data de fechamento que é a data do computador.
 
 <img src="http://helderrangel.com.br/imagens/diagramapoo.png">
-Classe de Fachada
-public static
-ArrayList<Produto>
-listarProdutos(nome) - retorna todos os produtos do restaurante (no caso de Enter) ou
-apenas os produtos que contém parte do nome fornecido
-public static
-ArrayList<Garcom>
-listarGarcons() – retorna todos os garçons do restaurante
-public static
-ArrayList<Mesa>
-listarMesas() – retorna todas as mesas do restaurante
-public static
-ArrayList<Conta>
-listarContas() – retorna todas as contas do restaurante
-public static void criarMesas(n) – cria todas as n mesas do restaurante
-public static Produto cadastrarProduto(nome, preco) – cadastra o produto
-public static Garcom cadastrarGarcom(apelido, senha, mesainicial, mesafinal) – cadastra o garçom
-public static Conta criarConta(idmesa) – cria uma conta para a mesa
-public static Conta consultarConta(idmesa) – retorna a conta da mesa
-public static Produto solicitarProduto(idmesa, nomeproduto)– adiciona um produto na conta
-public static void cancelarConta(idmesa)– excluir a conta da mesa e do restaurante
-public static void transferirConta(idmesaorigem, idmesadestino) – transferir todos os produtos da conta de
-origem para a conta destino e cancelar a conta origem
-public static void fecharConta(idmesa) – atualiza a data de fechamento da conta
-public static double calcularGorjeta(apelido) – calcular a gorjeta do garçom
+* Classe de Fachada
+* public static ArrayList<Produto> listarProdutos(nome) - retorna todos os produtos do restaurante (no caso de Enter) ou
+apenas os produtos que contém parte do nome fornecido 
+* public static ArrayList<Garcom> listarGarcons() – retorna todos os garçons do restaurante
+* public static ArrayList<Mesa> listarMesas() – retorna todas as mesas do restaurante
+* public static ArrayList<Conta> listarContas() – retorna todas as contas do restaurante
+* public static void criarMesas(n) – cria todas as n mesas do restaurante
+* public static Produto cadastrarProduto(nome, preco) – cadastra o produto
+* public static Garcom cadastrarGarcom(apelido, senha, mesainicial, mesafinal) – cadastra o garçom
+* public static Conta criarConta(idmesa) – cria uma conta para a mesa
+* public static Conta consultarConta(idmesa) – retorna a conta da mesa
+* public static Produto solicitarProduto(idmesa, nomeproduto)– adiciona um produto na conta
+* public static void cancelarConta(idmesa)– excluir a conta da mesa e do restaurante
+* public static void transferirConta(idmesaorigem, idmesadestino) – transferir todos os produtos da conta de origem para a conta destino e cancelar a conta origem
+* public static void fecharConta(idmesa) – atualiza a data de fechamento da conta
+*  public static double calcularGorjeta(apelido) – calcular a gorjeta do garçom
 * Esses métodos devem lançar exceção quando necessário.
   
   
@@ -76,6 +67,6 @@ Resultados: confirmação
 13. Calcular Gorjeta Dados: apelido do garçom
 Resultados: valor da gorjeta no dia de hoje para contas fechadas
 Considerações finais:
-• A aplicação deverá pré-cadastrar 8 produtos e 4 garçons
-• As datas devem ser visualizadas no formato dd/mm/aaaa
-• Utilize somente coleções do tipo ArrayList
+*  A aplicação deverá pré-cadastrar 8 produtos e 4 garçons
+*  As datas devem ser visualizadas no formato dd/mm/aaaa
+*  Utilize somente coleções do tipo ArrayList
