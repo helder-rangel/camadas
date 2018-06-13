@@ -6,17 +6,21 @@ Regras de negócio:
 Um restaurante vende os produtos de seu cardápio. Quando a mesa é ocupada pelos clientes, o garçom
 efetua a abertura de uma conta para a mesa e à medida que os clientes fazem seus pedidos, o garçom os solicita no
 sistema.
+
 O restaurante possui 20 mesas identificadas por um identificador autoincrementado (1, 2, ...), onde cada
 garçom serve 5 mesas (num intervalo sequencial) e cada mesa é atendida por apenas um único garçom. Uma mesa é
 considerada ocupada se possuir uma conta aberta e considerada livre se não possuir conta aberta.
+
 Um garçom pode criar, movimentar, cancelar, consultar e fechar uma conta para qualquer uma de suas
 mesas. Ele também pode transferir os produtos de uma mesa para outra, cancelando automaticamente a conta de
 origem. No final do dia o garçom poderá consultar o valor da gorjeta que ele receberá do restaurante
 correspondente aos 10% de todas as contas fechadas que ele serviu naquele dia.
+
 Uma conta é identificada no sistema por um número autoincrementado (1, 2, ...).
 Uma conta só pode ser criada para uma determinada mesa e somente se a última conta criada para esta
 mesa tiver sido fechada. Uma conta só pode ser fechada se ela estiver aberta. Quando uma conta é fechada ela
 recebe a data de fechamento que é a data do computador.
+
 
 <img src="http://helderrangel.com.br/imagens/diagramapoo.png">
    Classe de Fachada
