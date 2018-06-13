@@ -18,7 +18,8 @@ mesa tiver sido fechada. Uma conta só pode ser fechada se ela estiver aberta. Q
 recebe a data de fechamento que é a data do computador.
 
 <img src="http://helderrangel.com.br/imagens/diagramapoo.png">
-   Classe de Fachada *
+   Classe de Fachada
+   
    public static ArrayList<Produto> listarProdutos(nome) - retorna todos os produtos do restaurante (no caso de Enter) ou
 apenas os produtos que contém parte do nome fornecido
    
